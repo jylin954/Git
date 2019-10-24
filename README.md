@@ -27,12 +27,16 @@ git status
 
 # 流程
 git add "file"
+
 git commit -m ""
+
 ######## 取消 add ############
+
 git rm --cached ""
 
 # 連接github
 git config --global user.username <你的 github 使用者名稱>
 # push
 git remote add origin <remote 網址>
+
 git push -u origin master
