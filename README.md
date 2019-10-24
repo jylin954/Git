@@ -63,3 +63,7 @@ git clone "repo url" -b "branch name"
 git tag v0.1
 git push origin v0.1
 
+# 在github上傳圖片
+# upload files   & 放入圖片  ＆ copy picture url
+
+![image](picture or gif url)
