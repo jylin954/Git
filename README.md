@@ -40,3 +40,24 @@ git config --global user.username <你的 github 使用者名稱>
 git remote add origin <remote 網址>
 
 git push -u origin master
+
+# 將branch 推上github
+git push "repo name" "branch name"
+
+e.g. git push origin master
+
+# 刪除遠端branch
+git push "repo name" --delete "branch name"
+
+e.g. git push origin --delete new_feature
+
+# 刪除本地branch
+git branch -d
+
+# 複製repo 指定branch
+git clone "repo url" -b "branch name"
+
+# 推上release
+git tag v0.1
+git push origin v0.1
+
