@@ -1,6 +1,8 @@
 # Git
 ###########################use relevant git command###################################
 
+![image](https://github.com/jylin954/Git/blob/master/git-workflow.png)
+
 # 追蹤所有更動過的檔案
 git add-all
 # 切換到指定branch
